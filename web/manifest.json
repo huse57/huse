@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "flutter_ui_lab",
     "short_name": "flutter_ui_lab",
+=======
+    "name": "flutter_sample_application",
+    "short_name": "flutter_sample_application",
+>>>>>>> 034d1696966418ae70d77a5abfd1856020fe7dfa
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

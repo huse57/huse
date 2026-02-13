@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # flutter_ui_lab
+=======
+# flutter_sample_application
+>>>>>>> 034d1696966418ae70d77a5abfd1856020fe7dfa
 
 A new Flutter project.
 

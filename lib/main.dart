@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+<<<<<<< HEAD
       title: 'Flutter Lab Activity',
       home: Scaffold(
         appBar: AppBar(
@@ -22,12 +23,33 @@ class MyApp extends StatelessWidget {
               listViewExample(),
               gridViewExample(),
               stackExample(),
+=======
+      title: 'Laboratory 2',
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Simple Application'),
+        ),
+        body: const Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(
+                'Developed by: Jose Camaso',
+                style: TextStyle(fontSize: 20),
+              ),
+              SizedBox(height: 10),
+              Text(
+                '3.1 BSIT',
+                style: TextStyle(fontSize: 18),
+              ),
+>>>>>>> 034d1696966418ae70d77a5abfd1856020fe7dfa
             ],
           ),
         ),
       ),
     );
   }
+<<<<<<< HEAD
 }
 
 // PART 3 – Container Widget
@@ -118,4 +140,6 @@ Widget stackExample() {
       ],
     ),
   );
+=======
+>>>>>>> 034d1696966418ae70d77a5abfd1856020fe7dfa
 }

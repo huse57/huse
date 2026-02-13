@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 name: flutter_ui_lab
+=======
+name: flutter_sample_application
+>>>>>>> 034d1696966418ae70d77a5abfd1856020fe7dfa
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
