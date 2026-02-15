@@ -10,8 +10,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-<<<<<<< HEAD
       title: 'Flutter Lab Activity',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Flutter Lab Widgets'),
@@ -20,36 +22,18 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: [
               containerExample(),
+              const SizedBox(height: 20),
               listViewExample(),
+              const SizedBox(height: 20),
               gridViewExample(),
+              const SizedBox(height: 20),
               stackExample(),
-=======
-      title: 'Laboratory 2',
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Simple Application'),
-        ),
-        body: const Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text(
-                'Developed by: Jose Camaso',
-                style: TextStyle(fontSize: 20),
-              ),
-              SizedBox(height: 10),
-              Text(
-                '3.1 BSIT',
-                style: TextStyle(fontSize: 18),
-              ),
->>>>>>> 034d1696966418ae70d77a5abfd1856020fe7dfa
             ],
           ),
         ),
       ),
     );
   }
-<<<<<<< HEAD
 }
 
 // PART 3 – Container Widget
@@ -86,6 +70,10 @@ Widget listViewExample() {
         return ListTile(
           leading: const Icon(Icons.book),
           title: Text(subjects[index]),
+          onTap: () {
+            // Simple interaction: print selected subject
+            print("Selected: ${subjects[index]}");
+          },
         );
       },
     ),
@@ -140,6 +128,4 @@ Widget stackExample() {
       ],
     ),
   );
-=======
->>>>>>> 034d1696966418ae70d77a5abfd1856020fe7dfa
 }
